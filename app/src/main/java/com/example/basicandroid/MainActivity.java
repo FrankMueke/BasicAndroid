@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 EditText pinP=findViewById(R.id.pin);
                 String pin =pinP.getText().toString().trim();
 
-               String info = "your firstname is " + firstname + "your Seconname is " +secondname + "your emaIL is " + email + "your pin is " +pin + "your phionenumber is is " + phone ;
+               String info = "your firstname is " + firstname + "your Seconname is " +secondname + "your email  is " + email + "your pin is " +pin + "your phonenumber is is " + phone ;
                     Toast.makeText(MainActivity.this,info,Toast.LENGTH_LONG).show();
 
-                    Intent welcomeIntent = new Intent(MainActivity.this,Welcome.class);
+                    Intent welcomeIntent = new Intent(MainActivity.this,NavigationDrawer.class);
                     MainActivity.this.startActivity(welcomeIntent);
 
 

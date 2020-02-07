@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">BasicAndroid</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Basic android app</string>
+    <string name="nav_header_subtitle">mueke.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_profilep">Profile Photo</string>
+    <string name="menu_email">Email</string>
 </resources>
